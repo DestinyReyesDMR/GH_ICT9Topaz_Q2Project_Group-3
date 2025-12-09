@@ -1,131 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <title>OBMC Enroll Now</title>
-     <style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <style>
+        font{
+            font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', 'serif';
+        }
+
         body {
-            background-image: url('file:///Users/destiny/Desktop/DSC06678.webp');
+            background: url("https://www.canva.com/design/DAG608tFZWA/-3w4IJdjM5SxSg8iT2oMhA/edit") no-repeat center center fixed;
             background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
         }
 
-        .overlay-box {
-            background: rgba(255, 255, 255, 0.90);
-            padding: 25px;
+       
+        .content-box {
+            background: white;
+            padding: 50px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
 
-        h1, h2 {                  
-            font-weight: 400;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            
+        .navbar-brand img {
+            height: 50px;
         }
-    </style>
+
+        .btn-custom {
+            width: 100%;
+            padding: 12px;
+            background-color: #003c78;
+            color: white;
+            border: none;
+            border-radius: 50px;
+        }
+
+        .btn-custom:hover {
+            background-color: #002f5a;
+        }
+        h2 {
+            color: #003c78;
+            font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', 'serif';
+        }
+
+        .custom-nav {
+            background-color: #003c78 !important;
+            font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', 'serif';
+        }
+
+        .custom-nav .nav-link {
+ color: white !important;                
+    font-weight: 500;
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', 'serif';
+}
+
+.custom-nav .nav-link:hover {
+    color: #bcd8ff !important; 
+    text-decoration: underline;
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', 'serif';
+}
+
+.custom-nav .navbar-brand img {
+    height: 50px;
+    filter: brightness(95%);  
+
+}
+
+.navbar-toggler {
+    border-color: white !important;
+    background-color: transparent !important;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);                      
+}
+
+.logo-circle {
+    background-color: white;     
+    width: 60px;               
+    height: 60px;
+    border-radius: 50%;          
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;     
+}
+
+.logo-circle img {
+    width: 45px;                 
+    height: auto;
+}
+.navbar-brand {
+    --bs-navbar-brand-color: #ffffff; 
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times New Roman', 'Times', 'serif';
+}
+.nav-item .nav-link {
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times New Roman', 'Times', 'serif';
+}
+</style>
 </head>
+
 <body>
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <div class="container-fluid">
-            <div>
-                <a href="exercise 9.html" class="navbar-brand" image><img src="file:///Users/destiny/Desktop/OBMC+LOGO+2024-04.webp" alt="Logo" width="60" height="60"></a>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <div class="logo-circle">
+                <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/8b5611eb-ff3a-407f-9adc-e116a23373fc/OBMC+LOGO+2024-04.png" alt="Logo">
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="page2.html">Courses Offer</a></li>
+                    <li class="nav-item"><a class="nav-link" href="page3.html">Enroll Now</a></li>
+                    <li class="nav-item"><a class="nav-link" href="page4.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="page5.html">About the Group</a></li>
+                </ul>
             </div>
-            <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="navbar-nav me-auto">
-                <li class="nav-item"><a href="exercise 9.html" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="contact_us.html" class="nav-link">Contact Us</a></li>
-                <li class="nav-item"><a href="about_us.html" class="nav-link">About Us</a></li>
-                <li class="nav-item"><a href="enroll_now.html" class="nav-link">Enroll Now</a></li>
-            </ul>
             <form class="d-flex">
-                <input type="text" class="form-control me-2" placeholder="Search">
-                <button type="button" class="btn btn-primary">Search</button>
-            </form>
+                    <input type="text" class="form-control me-2" placeholder="Search">
+                    <button type="button" class="btn btn-primary">Search</button>
+                </form>
+
         </div>
     </nav>
-    <div class="container mt-5">
-        <h1 class="text-center mb-4">OBMC Student Enrollment Form</h1>
-        <p class="text-center text-muted mb-4">Fill out this form below to enroll for the upcoming school year</p>
 
-
+    
+    <div class="container mt-5 mb-5">
         <div class="row justify-content-center">
-            <div class="col-md-6">
-                <div class="overlay-box">
-              <p>Student Information</p>
-                    <form>
-                       <div class="row">
-                           <div class="col-md-6 mb-3">
-                         <label class="form-label">First Name</label>
-                         <input type="text" class="form-control" placeholder="Enter your first name">
-                       </div>
+            <div class="col-lg-10 content-box">
 
-                            <div class="col-md-6 mb-3">
-                             <label class="form-label">Last Name</label>
-                        <input type="text" class="form-control" placeholder="Enter your last name">
-                     </div>
-                    </div>
-                   </form>
+                <h2 class="fw-bold mb-4">Contact Us</h2>
 
-                        <div class="mb-3">
-                            <label class="form-label">Email Address</label>
-                            <input type="email" class="form-control" placeholder="Enter your email">
-                        </div>
-                        <form>
-    <div class="row">
-        <div class="col-md-4 mb-3">
-            <label class="form-label">Birth Date</label>
-            <input type="date" class="form-control">
-        </div>
-
-        <div class="col-md-4 mb-3">
-            <label class="form-label">Gender</label>
-            <select class="form-control">
-                <option value="">Select Gender</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-            </select>
-        </div>
-
-        <div class="col-md-4 mb-3">
-            <label class="form-label">Grade Level</label>
-            <select class="form-control">
-                <option value="">Select Grade Level</option>
-                <option value="grade7">Grade 7</option>
-                <option value="grade8">Grade 8</option>
-                <option value="grade9">Grade 9</option>
-                <option value="grade10">Grade 10</option>
-                <option value="grade11">Grade 11</option>
-                <option value="grade12">Grade 12</option>
-            </select>
-        </div>
-    </div>
-</form>
-                <div class="mb-3">
-                            <label class="form-label">Contact Number</label>
-                            <input type="text" class="form-control" placeholder="Enter your contact number">
-                        </div>
-                    </form>
-                    <form>
-                        <p>Other Information</p>
-                        <p>Mode of Learning</p>
-                        <div class="mb-3">
-         <label>Online Class</label><input type="radio" name="mode_of_learning" class="form-check-input">
-        <label>Face to Face</label><input type="radio" name="mode_of_learning" class="form-check-input">
-        <label>Hybrid</label><input type="radio" name="mode_of_learning" class="form-check-input">
-    </div>
-    <div class="mb-3">
-        <label>I confirm that the information provided is accurate and complete.</label><input type="checkbox" class="form-check-input">
-    </div>
-    <button class="btn btn-primary w-100 mt-3">Submit</button>
-
- </form>
+                <div class="row">
                     
+                    <div class="col-md-5 mb-4">
+                        <p>If you have questions, need more information, or want to schedule a visit, we are here to help.</p>
+
+                        <p><strong>Phone:</strong> +63 2 8722 9720 to 26</p>
+                        <p><strong>Email:</strong> info@obmontessori.edu.ph</p>
+                        <p><strong>Address:</strong> 3 Eisenhower St., Bgy. Greenhills, San Juan City, Metro Manila, Philippines </p>
+                    </div>
+ 
+                 
+                    <div class="col-md-7">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">First Name</label>
+                                    <input type="text" class="form-control">
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Last Name</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Phone</label>
+                                <input type="text" class="form-control">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Campus</label>
+                                <select class="form-select">
+                                    <option>Select Campus</option>
+                                    <option>Las Piñas</option>
+                                    <option>Greenhills</option>
+                                    <option>Angeles</option>
+                                    <option>Sta. Ana</option>
+                                    <option>Fairview</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Grade</label>
+                                <select class="form-select">
+                                    <option>Select Grade Level</option>
+                                    <option>Junior Casa (Pre-Kindergarten 1)</option>
+                                    <option>Junior Advanced Casa (Pre-Kindergarten 2)</option>
+                                    <option>Advanced Casa (Kindergarten)</option>
+                                    <option>Primary Grade School</option>
+                                    <option>Intermediate Grade School</option>
+                                    <option>Junior High School</option>
+                                    <option>Senior High School</option>
+                                    <option>Alumni</option>
+
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Message</label>
+                                <textarea rows="4" class="form-control"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-custom">SEND</button>
+                        </form>
+                    </div>
 
                 </div>
+
             </div>
         </div>
+    </div>
+
 </body>
 </html>
